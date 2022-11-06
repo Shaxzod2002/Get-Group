@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap");
+fonts, header h1, .nav-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav-heading {
+  font-size: 80px;
+  line-height: 94px;
+}
+
+header {
+  min-height: calc(100vh - 60px);
+}
+
+header h1 {
+  font-size: 80px;
+  line-height: 94px;
+}
+
+.home-design-image .view-project {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  scale: 0;
+}
+.home-design-image .view-project a {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  scale: 0;
+}
+.home-design-image:hover > .view-project {
+  scale: 1;
+}
+.home-design-image:hover > .view-project a {
+  scale: 1;
+}
+
+.we-are-where {
+  background: url("../images/home/We Are Where/bg.png") no-repeat center;
+  background-size: cover;
+}
+
+.footer {
+  background: url(../images/Footer/bg.png) no-repeat left bottom;
+  background-size: 80%;
+}
+
+.home {
+  background: url("../images/home/bg.png");
+  background-size: cover;
+}

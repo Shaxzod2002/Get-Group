@@ -1,0 +1,16 @@
+.home-design-image {
+  .view-project {
+    transition: all 0.5s linear;
+    scale: 0;
+    a {
+      transition: all 0.5s linear;
+      scale: 0;
+    }
+  }
+  &:hover > .view-project {
+    scale: 1;
+    a {
+      scale: 1;
+    }
+  }
+}

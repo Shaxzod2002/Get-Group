@@ -1,0 +1,12 @@
+@import "./colors";
+@import "./fonts";
+@import "../pages/navbar";
+@import "../pages/header";
+@import "../pages/ourProject";
+@import "../pages/weAreWhere";
+@import "../pages/footer";
+
+.home {
+  background: url('../images/home/bg.png');
+  background-size: cover;
+}

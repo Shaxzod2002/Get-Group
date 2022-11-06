@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "image": "./image/Home/Our Projects/1.png",
+    "heading": "Квартира на Академической",
+    "paragraph": "Стиль - Лофт",
+    "size": "130 м2"
+  },
+  {
+    "id": 2,
+    "image": "./image/Home/Our Projects/2.png",
+    "heading": "Квартира на Рижской",
+    "paragraph": "Стиль - Скандинавский",
+    "size": "94 м2"
+  },
+  {
+    "id": 3,
+    "image": "./image/Home/Our Projects/3.png",
+    "heading": "Квартира на Чистых прудах",
+    "paragraph": "Стиль  Лофт",
+    "size": "68 м2"
+  },
+  {
+    "id": 4,
+    "image": "./image/Home/Our Projects/4.png",
+    "heading": "Квартира на Рижской",
+    "paragraph": "Стиль - Скандинавский",
+    "size": "94 м2"
+  },
+  {
+    "id": 5,
+    "image": "./image/Home/Our Projects/5.png",
+    "heading": "Квартира на Чистых прудах",
+    "paragraph": "Стиль - Лофт",
+    "size": "85 м2"
+  },
+  {
+    "id": 6,
+    "image": "./image/Home/Our Projects/6.png",
+    "heading": "Квартира на Академической",
+    "paragraph": "В стиле Лофт",
+    "size": "108 м2"
+  },
+  {
+    "id": 7,
+    "image": "./image/Home/Our Projects/6.png",
+    "heading": "Квартира на Академической",
+    "paragraph": "В стиле Лофт",
+    "size": "108 м2"
+  },
+  {
+    "id": 8,
+    "image": "./image/Home/Our Projects/6.png",
+    "heading": "Квартира на Академической",
+    "paragraph": "В стиле Лофт",
+    "size": "108 м2"
+  },
+  {
+    "id": 9,
+    "image": "./image/Home/Our Projects/6.png",
+    "heading": "Квартира на Академической",
+    "paragraph": "В стиле Лофт",
+    "size": "108 м2"
+  }
+]

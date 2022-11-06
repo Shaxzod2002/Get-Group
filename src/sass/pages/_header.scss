@@ -1,0 +1,7 @@
+header {
+  min-height: calc(100vh - 60px);
+}
+
+header h1 {
+  @include heading-xxl;
+}

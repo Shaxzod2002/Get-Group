@@ -1,0 +1,48 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      textColor: {
+        colorFFFFFF: "#FFFFFF",
+        colorF2F2F2: "#F2F2F2",
+        colorE0E0E0: "#E0E0E0",
+        color828282: "#828282",
+        color4F4F4F: "#4F4F4F",
+        color333333: "#333333",
+        color000000: "#000000",
+        colorFAFF09: "#FAFF09",
+        colorEB5757: "#EB5757",
+        colorF9F3E6: "#F9F3E6",
+        colorE7D0D0: "#E7D0D0",
+      },
+      backgroundColor: {
+        colorFFFFFF: "#FFFFFF",
+        colorF2F2F2: "#F2F2F2",
+        colorE0E0E0: "#E0E0E0",
+        color828282: "#828282",
+        color4F4F4F: "#4F4F4F",
+        color333333: "#333333",
+        color000000: "#000000",
+        colorFAFF09: "#FAFF09",
+        colorEB5757: "#EB5757",
+        colorF9F3E6: "#F9F3E6",
+        colorE7D0D0: "#E7D0D0",
+      },
+      borderColor: {
+        colorFFFFFF: "#FFFFFF",
+        colorF2F2F2: "#F2F2F2",
+        colorE0E0E0: "#E0E0E0",
+        color828282: "#828282",
+        color4F4F4F: "#4F4F4F",
+        color333333: "#333333",
+        color000000: "#000000",
+        colorFAFF09: "#FAFF09",
+        colorEB5757: "#EB5757",
+        colorF9F3E6: "#F9F3E6",
+        colorE7D0D0: "#E7D0D0",
+      },
+    },
+  },
+  plugins: [],
+};
