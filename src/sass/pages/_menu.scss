@@ -1,0 +1,24 @@
+menu {
+  display: flex;
+  scale: 0;
+  .right {
+    .catalog-of-works,
+    .design-selection {
+      .image {
+        background: url(../images/Menu/catalog.png) no-repeat center;
+        background-size: cover;
+      }
+    }
+    .back__to__top-group {
+      .btn-group {
+        .btn-active {
+          background: #faff09;
+        }
+      }
+    }
+  }
+}
+
+.phone-block {
+  scale: 0;
+}

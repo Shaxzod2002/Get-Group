@@ -42,7 +42,7 @@ export default function Applying() {
             </div>
           </div>
         ))}
-        <button className="py-5 px-32 border flex items-center justify-center gap-4 font-['Roboto'] my-4 mx-[70px] text-2xl">
+        <button className="py-5 px-32 border flex items-center justify-center gap-4 transition-all font-['Roboto'] my-4 mx-[70px] text-2xl hover:bg-[#C4C4C4] hover:text-[#ffffff]">
           Начать <HiOutlineArrowLongRight className="text-3xl" />
         </button>
       </div>

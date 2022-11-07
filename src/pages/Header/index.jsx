@@ -10,14 +10,14 @@ export default function Header() {
           <a
             href="#"
             area-hidden={"true"}
-            className="w-[250px] py-[10px] flex justify-center items-center bg-[#11111199] border-color-[#F2F2F2] border-[1px] text-colorF2F2F2 hover:text-[#000] hover:bg-colorFFFFFF"
+            className="w-[250px] py-[10px] flex justify-center items-center bg-[#11111199] border-color-[#F2F2F2] border-[1px] text-colorF2F2F2 hover:text-[#000] hover:bg-[#C4C4C4]"
           >
             Проекты
           </a>
           <a
             href="#"
             area-hidden={"true"}
-            className="w-[250px] py-[10px] flex justify-center items-center bg-[rgba(17,17,17,.6)] border-colorF2F2F2 border-[1px] text-colorF2F2F2 hover:text-[#000] hover:bg-colorFFFFFF"
+            className="w-[250px] py-[10px] flex justify-center items-center bg-[rgba(17,17,17,.6)] border-colorF2F2F2 border-[1px] text-colorF2F2F2 hover:text-[#000] hover:bg-[#C4C4C4]"
           >
             Расчитать стоимость
           </a>

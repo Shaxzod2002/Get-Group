@@ -14,7 +14,7 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="app">
       {/* ---------- Add Home Page ------------ */}
       <Home />
     </div>

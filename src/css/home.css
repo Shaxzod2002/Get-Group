@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap");
-fonts, header h1, .nav-heading {
+fonts,
+header h1,
+.nav-heading {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -44,6 +46,25 @@ header h1 {
 .footer {
   background: url(../images/Footer/bg.png) no-repeat left bottom;
   background-size: 80%;
+}
+
+menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  scale: 0;
+}
+menu .right .catalog-of-works .image,
+menu .right .design-selection .image {
+  background: url(../images/Menu/catalog.png) no-repeat center;
+  background-size: cover;
+}
+menu .right .back__to__top-group .btn-group .btn-active {
+  background: #faff09;
+}
+
+.phone-block {
+  scale: 0;
 }
 
 .home {

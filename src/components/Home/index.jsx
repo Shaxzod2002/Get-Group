@@ -7,7 +7,6 @@ import "../../css/home.css";
 */
 import Header from "../../pages/Header";
 import Navbar from "../../pages/Navbar";
-import Results from "../../pages/Results";
 import ProjectCost from "../../pages/Project Cost";
 import MainServices from "../../pages/Main Sevices";
 import OurProject from "../../pages/Our Projects";
@@ -20,14 +19,12 @@ import Footer from "../../pages/Footer";
 export default function Home() {
   return (
     <>
-      <div className="home">
+      <div className="home relative">
         {/* ---------- Add Navbar  ------------ */}
         <Navbar />
         {/* ---------- Add Header  ------------ */}
         <Header />
       </div>
-      {/* ---------- Add Results  ----------- */}
-      <Results />
       {/* ---------- Add Project Cost  ------------ */}
       <ProjectCost />
       {/* ---------- Add Main Services  ------------ */}

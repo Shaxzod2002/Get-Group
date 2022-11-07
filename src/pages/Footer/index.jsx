@@ -104,7 +104,7 @@ export default function Footer() {
         <div className="right w-[39%] min-h-[130vh] relative flex items-center">
           <a
             href="#nav"
-            className="inline-flex items-center border mt-20 py-3 px-10 gap-3 -rotate-90 absolute right-20 top-0"
+            className="inline-flex items-center border transition-all mt-20 py-3 px-10 gap-3 -rotate-90 absolute right-20 top-0 hover:bg-[#E2E2E2] hover:text-white"
           >
             Наверх <BsArrowRight />
           </a>

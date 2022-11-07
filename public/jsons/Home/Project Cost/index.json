@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "./image/Home/Project Cost/1.png",
+        "paragraph": "Минимализм"
+    },
+    {
+      "id": 2,
+      "image": "./image/Home/Project Cost/2.png",
+      "paragraph": "Скандинавский стиль"
+    },
+    {
+      "id": 3,
+      "image": "./image/Home/Project Cost/3.png",
+      "paragraph": "Стиль Лофт"
+    },
+    {
+      "id": 4,
+      "image": "./image/Home/Project Cost/1.png",
+      "paragraph": "Минимализм"
+    },
+    {
+      "id": 5,
+      "image": "./image/Home/Project Cost/2.png",
+      "paragraph": "Скандинавский стиль"
+    },
+    {
+      "id": 6,
+      "image": "./image/Home/Project Cost/3.png",
+      "paragraph": "Стиль Лофт"
+    }
+]

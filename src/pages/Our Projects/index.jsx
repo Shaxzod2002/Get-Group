@@ -32,7 +32,7 @@ export default function OurProject() {
                 <div className="view-project absolute w-full h-full flex top-0 bg-black/70 justify-center items-center">
                   <a
                     href="/"
-                    className="py-3 px-10 border-[1px] border-white text-white hover:bg-white hover:text-black"
+                    className="py-3 px-10 border-[1px] border-white text-white hover:bg-[#E2E2E2] hover:text-black"
                   >
                     Смотреть проект
                   </a>
@@ -52,7 +52,7 @@ export default function OurProject() {
         )}
         <div className="w-full flex justify-center pb-5">
           <button
-            className="bg-black text-white py-3 px-10 flex items-center gap-2"
+            className="bg-black transition-all text-white py-3 px-10 flex items-center gap-2 hover:bg-[#535353] hover:text-[#F2F2F2]"
             onClick={handleOurProject}
           >
             <IoReloadOutline className="-rotate-[75deg]" />
