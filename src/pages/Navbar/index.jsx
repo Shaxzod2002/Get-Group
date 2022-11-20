@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiXMark, HiBars3CenterLeft } from "react-icons/hi2";
 import logo from "../../images/logo.png";
@@ -13,7 +13,6 @@ export default function Navbar() {
     menu.style.scale = "1";
   };
   
-
   const handlePhoneActive = () => {
     phoneBlock.style.scale = "1";
   };

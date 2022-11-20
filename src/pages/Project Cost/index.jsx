@@ -18,8 +18,14 @@ export default function ProjectCost() {
       setCost(await (await axios.get(costUrl)).data);
     setCostApi();
   }, []);
+  const imageBox = document.getElementById("image-box");
+  const handleImage = () => {
+    imageBox.style.scale = "1"
+  };
 
-  function handleImageBox() {}
+  const handleNotImage = () => {
+    imageBox.style.scale = "0";
+  }
   return (
     <div id="project-cost" className="relative">
       <div className="w-[95%] mx-auto my-10 min-h-[0] flex bg-[#F2F2F2]">
@@ -50,8 +56,8 @@ export default function ProjectCost() {
             </p>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <button
-              className="flex w-[250px] py-4 mt-10 transition-all bg-black text-white justify-center hover:bg-[#535353] hover:text-[#F2F2F2]"
-              onClick={handleImageBox}
+              className="flex w-[250px] py-4 mt-10 transition-all bg-black text-white justify-center hover:bg-[#535353] hover:text-[#F2F2F2] cursor-pointer"
+              onClick={handleImage}
             >
               Узнать стоимость
             </button>
@@ -81,9 +87,15 @@ export default function ProjectCost() {
           </div>
         </div>
       </div>
-      <div className="absolute w-full min-h-[120vh] bg-[#000000CC] top-0 left-0 flex justify-center items-center">
+      <div
+        className="absolute w-full min-h-[120vh] bg-[#000000CC] top-0 left-0 flex justify-center items-center duration-500"
+        id="image-box"
+      >
         <div className="flex flex-col gap-5 w-[90%] min-h-[85vh] bg-white mt-10  pt-5 pb-3 px-20 relative">
-          <div className="exit absolute right-20 text-4xl">
+          <div
+            className="exit absolute right-20 text-4xl cursor-pointer"
+            onClick={handleNotImage}
+          >
             <HiXMark />
           </div>
           <div className="question flex items-start gap-5">
